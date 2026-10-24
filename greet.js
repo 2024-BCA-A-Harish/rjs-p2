@@ -2,8 +2,9 @@
 
 function getMessage(name, age) {
     // Write your code here
+     return `Hello, my name is ${name}and i am${age} years old.`;
 }
-
+console.log(getMessage("Suba",20));
 // Don't change the code below
 console.log(getMessage(process.argv[2], process.argv[3]));
 
